@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: us-central1-docker.pkg.dev/GOOGLE_CLOUD_PROJECT/myapps-repository/webapp:COMMIT_SHA
+        image: us-central1-docker.pkg.dev/GOOGLE_CLOUD_PROJECT/REPO_NAME/webapp:COMMIT_SHA
         resources:
           requests:
             memory: "32Mi"
